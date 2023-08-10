@@ -4,3 +4,118 @@
     box-sizing: border-box;
     position: relative;
 }
+nav{
+    border: solid black 2px;
+}  
+.navbar {
+    display: flex;      
+    justify-content: space-between; 
+    align-items: center;
+    position: sticky;   
+    background-color: lightgrey; 
+    z-index: 99;
+    top:0;
+    padding: 0 5px;
+}
+.navtag {
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+  }
+.navtag:hover {
+    color: blue;
+  }
+.aboutpage{
+    background-color: black;
+    height:100vh;
+    color:white
+}
+.welcome{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+@media(min-width:900px){
+    .welcome{
+        padding:4rem;
+    }
+}
+.aboutdesc{
+    padding: 20px;
+    text-align: center;
+}
+@media(min-width:900px){
+    .aboutdesc{
+        padding:4rem;
+    }
+}
+.qoute{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media(min-width:900px){
+    .qoute{
+        padding:4rem;
+    }
+}
+
+/* Home to about trans */
+
+.pageabout{
+    background-color: yellowgreen;
+    min-height: 100vh;
+}
+img{
+    width:150px;
+}
+.toppage{
+    text-align: center;
+    padding:1rem 0;
+}
+@media(min-width:900px){
+    .activity{
+        width:70%;
+        margin-left:15%;
+    }
+}
+.activity{
+    padding-top: 1rem;
+    background-color: black;
+    color: white;
+}
+.pageabout2{
+    display:flex;
+    justify-content: center;
+    align-items: left;
+}
+@media(min-width:900px){
+    .pageabout2{
+        width:70%;
+        margin-left:15%;
+        background-color: gray;
+    }
+}
+/* about to portfolio trans */
+.portfolio{
+    color:white;
+    background-color: black;
+    min-height:100vh;
+    text-align: center;
+}
+.portfolio > h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.first > h2{
+    color:aqua;
+}
+.first{
+    padding:10px 0;
+}
+.project:hover{
+    color:yellow;
+}
