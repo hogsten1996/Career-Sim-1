@@ -12,7 +12,7 @@ nav{
     justify-content: space-between; 
     align-items: center;
     position: sticky;   
-    background-color: lightgrey; 
+    background-color: darkgray; 
     z-index: 99;
     top:0;
     padding: 0 5px;
@@ -65,7 +65,7 @@ nav{
 /* Home to about trans */
 
 .pageabout{
-    background-color: yellowgreen;
+    background-color: black;
     min-height: 100vh;
 }
 img{
@@ -74,6 +74,7 @@ img{
 .toppage{
     text-align: center;
     padding:1rem 0;
+    color:white;
 }
 @media(min-width:900px){
     .activity{
@@ -83,13 +84,15 @@ img{
 }
 .activity{
     padding-top: 1rem;
-    background-color: black;
-    color: white;
+    background-color: lightgray;
+    color: black;
+    border:solid black 2px;
 }
 .pageabout2{
     display:flex;
     justify-content: center;
     align-items: left;
+    color:white;
 }
 @media(min-width:900px){
     .pageabout2{
@@ -118,4 +121,14 @@ img{
 }
 .project:hover{
     color:yellow;
+}
+footer{
+    width:100%;
+    height: 50px;
+    background-color: darkgray;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border:solid black 2px;
 }
