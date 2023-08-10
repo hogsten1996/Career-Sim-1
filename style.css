@@ -132,3 +132,14 @@ footer{
     padding:10px;
     border:solid black 2px;
 }
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+}
+.formdesc{
+    text-align: center;
+    padding-top: 50px;
+}
