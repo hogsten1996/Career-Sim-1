@@ -69,19 +69,19 @@ nav{
     min-height: 100vh;
 }
 img{
-    width:150px;
+    width:200px;
+}
+@media(min-width:900px){
+    img{
+        width:300px;
+    }
 }
 .toppage{
     text-align: center;
     padding:1rem 0;
     color:white;
 }
-/* @media(min-width:900px){
-    .activity{
-        width:70%;
-        margin-left:15%;
-    }
-} */
+
 .activity{
     padding-top: 1rem;
     background-color: lightgray;
@@ -91,9 +91,10 @@ img{
 @media(min-width: 900px){
     .activity{
         display:flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        width:60%;
+        margin-left: 20%;
     }
 }
 
@@ -107,9 +108,12 @@ img{
 @media(min-width: 900px){
     .pageabout2{
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+        width:40%;
+        margin-left:30%;
+        font-size: larger;
     }
 }
 .pageabout2 > p{
@@ -117,9 +121,8 @@ img{
 }
 @media(min-width:900px){
     .pageabout2 > p{
-        width:40%;
-        margin-left:30%;
-        background-color: gray;
+        background-color: black;
+        margin:0;
     }
 }
 /* about to portfolio trans */
@@ -134,11 +137,41 @@ img{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.myproj{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+@media(min-width:900px){
+    .myproj{
+        padding-top:3rem;
+    }
+}
+@media(min-width:900px){
+    .portfolio{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+}
+@media(min-width:900px){
+    img.pim{
+        height:500px;
+        width:500px;
+    }
+}
 .first > h2{
     color:aqua;
 }
 .first{
     padding:10px 0;
+}
+@media(min-width:900px){
+    .first{
+        width:30%;
+        margin-bottom: 20px;
+    }
 }
 .project:hover{
     color:yellow;
