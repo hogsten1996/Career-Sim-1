@@ -167,6 +167,9 @@ img{
     background-image: url(leaves.jpg);
     text-align: center;
 }
+.pim{
+    border:solid black 2px;
+}
 @media(min-width:900px){
     .myproj{
         padding-top:3rem;
